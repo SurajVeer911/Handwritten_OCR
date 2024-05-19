@@ -1,0 +1,29 @@
+2024-05-12 18:54:53,647 - ImageReader - WARNING - Image Datasets\IAM_Words\words\r06\r06-022\r06-022-03-05.png could not be read, returning None.
+2024-05-12 18:54:53,647 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2024-05-12 18:54:53,647 - DataProvider - WARNING - Data or annotation is None, skipping.
+2024-05-12 18:58:54,619 - DataProvider - WARNING - Removing ['Datasets\\IAM_Words\\words\\r06\\r06-022\\r06-022-03-05.png', 'more'] from dataset.
+2024-05-12 18:58:59,403 - ImageReader - WARNING - Image Datasets\IAM_Words\words\a01\a01-117\a01-117-05-02.png could not be read, returning None.
+2024-05-12 18:58:59,403 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2024-05-12 18:58:59,403 - DataProvider - WARNING - Data or annotation is None, skipping.
+2024-05-12 18:59:23,758 - DataProvider - WARNING - Removing ['Datasets\\IAM_Words\\words\\a01\\a01-117\\a01-117-05-02.png', 'Powell'] from dataset.
+2024-05-12 18:59:23,934 - root - INFO - Epoch 0; loss: 12.673264503479004; CER: 0.8301113247871399; WER: 0.9207685589790344; val_loss: 10.787948608398438; val_CER: 0.6791978478431702; val_WER: 0.8799377679824829
+2024-05-12 19:12:55,764 - root - INFO - Epoch 1; loss: 9.12082290649414; CER: 0.5581007599830627; WER: 0.7732493281364441; val_loss: 7.523886680603027; val_CER: 0.4610000252723694; val_WER: 0.7081389427185059
+2024-05-12 19:26:43,383 - root - INFO - Epoch 2; loss: 7.3520307540893555; CER: 0.44685229659080505; WER: 0.7053070664405823; val_loss: 5.493316650390625; val_CER: 0.3391873240470886; val_WER: 0.621565580368042
+2024-05-12 19:40:30,860 - root - INFO - Epoch 3; loss: 6.068242073059082; CER: 0.36348313093185425; WER: 0.6463615298271179; val_loss: 4.529513835906982; val_CER: 0.28183284401893616; val_WER: 0.5650596022605896
+2024-05-12 19:54:49,857 - root - INFO - Epoch 4; loss: 5.238905429840088; CER: 0.3128419816493988; WER: 0.6011703610420227; val_loss: 3.7269017696380615; val_CER: 0.22694282233715057; val_WER: 0.49673405289649963
+2024-05-12 20:10:14,424 - root - INFO - Epoch 5; loss: 4.684929847717285; CER: 0.27814364433288574; WER: 0.5621191263198853; val_loss: 3.6097874641418457; val_CER: 0.21763601899147034; val_WER: 0.4805598855018616
+2024-05-12 20:26:04,048 - root - INFO - Epoch 6; loss: 4.285937309265137; CER: 0.2553335726261139; WER: 0.5332741737365723; val_loss: 3.349998950958252; val_CER: 0.19845418632030487; val_WER: 0.45443233847618103
+2024-05-12 20:41:55,378 - root - INFO - Epoch 7; loss: 4.028115272521973; CER: 0.2394341081380844; WER: 0.5126081109046936; val_loss: 5.285140037536621; val_CER: 0.34464946389198303; val_WER: 0.6301710605621338
+2024-05-12 20:58:17,539 - root - INFO - Epoch 8; loss: 3.8102853298187256; CER: 0.22638313472270966; WER: 0.49462613463401794; val_loss: 2.6066253185272217; val_CER: 0.1592555046081543; val_WER: 0.3867288827896118
+2024-05-12 21:14:23,992 - root - INFO - Epoch 9; loss: 3.7038087844848633; CER: 0.22049133479595184; WER: 0.48564088344573975; val_loss: 2.5854570865631104; val_CER: 0.16060566902160645; val_WER: 0.3884914517402649
+2024-05-12 21:14:25,006 - tf2onnx.tfonnx - INFO - Using tensorflow=2.10.0, onnx=1.16.0, tf2onnx=1.16.1/15c810
+2024-05-12 21:14:25,006 - tf2onnx.tfonnx - INFO - Using opset <onnx, 15>
+2024-05-12 21:14:25,065 - tf2onnx.tf_utils - INFO - Computed 0 values for constant folding
+2024-05-12 21:14:25,068 - tf2onnx.tf_utils - INFO - Computed 0 values for constant folding
+2024-05-12 21:14:25,069 - tf2onnx.tf_utils - INFO - Computed 0 values for constant folding
+2024-05-12 21:14:25,071 - tf2onnx.tf_utils - INFO - Computed 0 values for constant folding
+2024-05-12 21:14:25,105 - tf2onnx.tf_utils - INFO - Computed 2 values for constant folding
+2024-05-12 21:14:25,147 - tf2onnx.tfonnx - INFO - folding node using tf type=StridedSlice, name=model/bidirectional/forward_lstm/PartitionedCall/strided_slice
+2024-05-12 21:14:25,148 - tf2onnx.tfonnx - INFO - folding node using tf type=StridedSlice, name=model/bidirectional/backward_lstm/PartitionedCall/strided_slice
+2024-05-12 21:14:25,248 - tf2onnx.optimizer - INFO - Optimizing ONNX model
+2024-05-12 21:14:25,709 - tf2onnx.optimizer - INFO - After optimization: BatchNormalization -18 (18->0), Cast -4 (11->7), Concat -4 (10->6), Const -129 (192->63), Expand -3 (4->1), Gather +2 (2->4), Identity -2 (2->0), Shape -1 (4->3), Slice -1 (5->4), Squeeze -3 (5->2), Transpose -81 (85->4), Unsqueeze -14 (17->3)

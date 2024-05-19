@@ -1,0 +1,9 @@
+batch_size: 16
+height: 32
+learning_rate: 0.0005
+max_text_length: 21
+model_path: Model\2024-05-12--1844
+train_epochs: 10
+train_workers: 20
+vocab: '?QYsa-n0kz#L8XmTAND7ER1iOufhvjFI&t3o)wcyBe!2"rJbW;*GgPSKl/9VH+Z,x4C5UdM(6qp''.:'
+width: 128

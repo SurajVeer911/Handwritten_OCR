@@ -1,0 +1,9 @@
+customtkinter==5.2.2
+keras==2.10.0
+mltu==1.2.4
+numpy==1.26.4
+opencv_python==4.9.0.80
+pandas==2.2.2
+tensorflow==2.10.0
+tqdm==4.66.2
+tf2onnx==1.14.0
